@@ -1,0 +1,17 @@
+.plan-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+
+  &__item {
+    font-family: $font-family--Open-sans;
+    font-size: 12px;
+    line-height: 21px;
+
+    &::before {
+      content: '✔';
+      color: #fefbfb;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.team-list {
+  flex-wrap: wrap;
+
+  &__item {
+    background-color: $white;
+    margin: 0 auto;
+    margin-bottom: 1.25rem;
+  }
+
+  &__link {
+    text-decoration: none;
+
+    &:hover {
+      opacity: 0.7;
+    }
+
+    &:focus {
+      outline: none;
+
+      .team-list__title {
+        color: $base-red;
+      }
+    }
+  }
+
+  &__info {
+    padding-top: 1.83rem;
+    padding-bottom: 1.83rem;
+    padding-left: 1.67rem;
+    padding-right: 1.67rem;
+  }
+
+  &__title {
+    font-family: $font-family--Oswald;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    color: $base-black;
+    margin: 0;
+  }
+
+  &__text {
+    font-family: $font-family--Oswald;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #c4c4c4;
+    margin: 0;
+  }
+}

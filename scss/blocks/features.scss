@@ -1,0 +1,26 @@
+.features {
+
+  &__title {
+    font-family: $font-family--Oswald;
+    font-size: 30px;
+    color: $base-black;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.03em;
+
+    &--red {
+      color: $base-red;
+    }
+  }
+
+  &__subtitle {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    color: #a2a2a2;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 4.16rem;
+    letter-spacing: 0.03em;
+  }
+}
